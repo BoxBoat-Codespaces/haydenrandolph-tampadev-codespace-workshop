@@ -28,6 +28,7 @@ app.MapGet("/hello", () => hello());
 
 // ASCII art
 app.MapGet("/boxboat", () => ascii("boxboat"));
+app.MapGet("/blinky", () => ascii("blinky"));
 app.MapGet("/dwight", () => ascii("dwight")); 
 app.MapGet("/tnt", () => ascii("tnt")); 
 app.MapGet("/mtv", () => ascii("mtv")); 
